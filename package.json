@@ -1,0 +1,33 @@
+{
+  "name": "cloud-take-home-assignment",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "tsup",
+    "start:server": "node external",
+    "invoke": "node app",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "10.17.27",
+    "@typescript-eslint/eslint-plugin": "4.14.0",
+    "@typescript-eslint/parser": "4.14.0",
+    "@vitest/coverage-istanbul": "0.34.3",
+    "eslint": "7.18.0",
+    "eslint-config-prettier": "7.2.0",
+    "eslint-plugin-prettier": "3.3.1",
+    "eslint-plugin-unused-imports": "1.0.1",
+    "prettier": "2.2.1",
+    "source-map-support": "0.5.16",
+    "ts-loader": "9.4.1",
+    "ts-node": "10.9.1",
+    "tsup": "6.7.0",
+    "typescript": "4.8.4",
+    "vitest": "0.34.3",
+    "vitest-mock-extended": "1.1.3"
+  },
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.83",
+    "jsonschema": "^1.4.0",
+    "source-map-support": "^0.5.16"
+  }
+}
